@@ -5,8 +5,8 @@
 <?php
             function greet_hng($name,$hng_id,$email,$language){
                 
-                $output = "Hello world,this is ".$name." with HNGi7 ID: ".$hng_id."Email: ".$email." using language "
-                .$language." for stage 2 TEST RESULT:<i style ='color:green;'>Pass</i> ";
+                $output = "Hello world,this is ".$name." with HNGi7 ID: ".$hng_id." using language "
+                .$language." for stage 2 and".$email;
                 return $output;
             }
              
